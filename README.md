@@ -55,7 +55,7 @@ var obj = parseKeyURI('otpauth://totp/Google:omar@quazi.co?secret=ATQQBI2LLNYDVX
 
 The variable `obj` will now contain all of the parameters you need, in the event that the function failed to verify the URI (for example if it was invalid), `obj` will be `undefined`. If parseKeyURI succeded, the `obj` variable should look like this:
 
-```json
+```
 {
   type: "totp",
   secret: "ATQQBI2LLNYDVXADF3V4NSJMRN5I62VF",
